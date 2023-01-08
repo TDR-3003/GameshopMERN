@@ -13,6 +13,10 @@
 	"heroku-prebuild": "npm install -f",
     "heroku-postbuild": "npm run prod"
   },
+  "dependencies": {
+	"express": "^4.18.2",
+    "express-async-handler": "^1.2.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ArturkuB/GameshopMERN.git"

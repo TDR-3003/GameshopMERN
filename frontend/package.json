@@ -2,7 +2,7 @@
   "name": "frontend",
   "proxy": "http://localhost:5003",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@paypal/react-paypal-js": "^7.6.0",
     "@react-google-maps/api": "^2.7.0",

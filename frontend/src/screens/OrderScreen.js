@@ -149,7 +149,8 @@ export default function OrderScreen() {
 
   const handlePayuPress = async () => {
     try {
-      const locationURL = 'http://localhost:3000' + location.pathname;
+      const locationURL =
+        'https://gameshop-mern.herokuapp.com' + location.pathname;
       const response = await axios.put(`/api/orders/payu`, {
         locationToContinue: locationURL,
         amount: order.totalPrice.toFixed(2),
